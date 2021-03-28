@@ -7,6 +7,8 @@ public class Main {
 //        Car car2 = new Car("Ford", "Mustang",2020);
 //        car2.copy(car);
 
+        Car car2 = new Car(car);
+
         System.out.println(car);
         System.out.println(car2);
         System.out.println();

@@ -11,6 +11,11 @@ public class Car {
         this.setYear(year);
     }
 
+    Car(Car x){
+        this.copy(x);
+    }
+
+
     // Getters
 
     public String getMake(){
