@@ -8,7 +8,8 @@ public class Main {
 
         Rabbit rabbit = new Rabbit();
         rabbit.flee();
-
+        Hawk hawk = new Hawk();
+        hawk.hunt();
 
     }
 
