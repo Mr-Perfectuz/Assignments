@@ -29,6 +29,7 @@ public class Main {
         else {
             animal = new Animal();
             System.out.println(" That choice is invalid ");
+            animal.speak();
         }
     }
 }
