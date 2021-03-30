@@ -7,5 +7,6 @@ public class Main {
 
          Animal animal;
          Dog dog;
+         Cat cat;
     }
 }
