@@ -12,10 +12,14 @@ public class Main {
         Boat boat = new Boat();
 
         Vehicle[] racers = {car, bicycle, boat};
+//
+//        car.go();
+//        bicycle.go();K
+//        boat.go();
 
-        car.go();
-        bicycle.go();
-        boat.go();
+        for (Vehicle x: racers){
+            x.go();
+        }
 
     }
 }
