@@ -5,5 +5,5 @@ public class Boat extends Vehicle{
     Bicycle bicycle = new Bicycle();
     Boat boat = new Boat();
 
-    racers = {car, bicycle, boat};
+//    racers = {car, bicycle, boat};
 }
