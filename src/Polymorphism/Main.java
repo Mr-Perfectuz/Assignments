@@ -13,5 +13,9 @@ public class Main {
 
         Vehicle[] racers = {car, bicycle, boat};
 
+        car.go();
+        bicycle.go();
+        boat.go();
+
     }
 }
