@@ -15,5 +15,12 @@ public class Main {
         System.out.println("(1 = dog) or (2 = cat)");
 
         int choice = scanner.nextInt();
+
+        if (choice == dog){
+            dog.speak();
+        }
+        else {
+            cat.speak();
+        }
     }
 }
