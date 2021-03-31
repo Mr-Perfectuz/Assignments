@@ -9,8 +9,9 @@ public class Main {
         // exceptions = an event that occurs during the execution of a program that,
         //              disrupts the normal flow of instructions
 
+        Scanner scanner= new Scanner(System.in);
         try {
-            Scanner scanner= new Scanner(System.in);
+
             System.out.println("Enter a whole number: ");
             int x = scanner.nextInt();
 
@@ -28,6 +29,12 @@ public class Main {
             System.out.println("You can't divide to a word ! ENTER A NUMBER ");
         }
 
+        catch (Exception e){
+            System.out.println("Something is wrong ! ");
+        }
+        finally {
+            scanner.close();
+        }
 
 
     }
