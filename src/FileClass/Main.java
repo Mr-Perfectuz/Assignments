@@ -7,9 +7,12 @@ public class Main {
         // file =  An abstract representation of a file and directory pathnames
 
 
-        File file = new File("message.txt");
+        File file = new File("C:\\developer\\DSU\\src\\text.txt");
         if (file.exists()){
             System.out.println("That file exists ! ");
+            System.out.println(file.getPath());
+            System.out.println(file.getAbsolutePath());
+            System.out.println(file.isFile());
         }
         else {
             System.out.println("That file doesn't exist");
