@@ -7,8 +7,9 @@ public class Main {
     public static  void main(String[] args){
 
         try {
-            FileWriter fileWriter = new FileWriter("poems.txt");
-            fileWriter.write("Roses are red");
+            FileWriter fileWriter = new FileWriter("art.txt");
+            fileWriter.write("Roses are red \nViolets are blue");
+            fileWriter.append("\n(Written by Mr.Perfect)");
             fileWriter.close();
         } catch (IOException e) {
             e.printStackTrace();
