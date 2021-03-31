@@ -11,12 +11,13 @@ public class Main {
         //              returns -1, there is no more date to be read
 
         try {
-            FileReader fileReader = new FileReader("C:\\developer\\DSU\\art.txt");
+            FileReader fileReader = new FileReader("C:\\developer\\DSU\\src\\FileReader\\art.txt");
             int date = fileReader.read();
             while (date!= -1){
                 System.out.print((char) date);
                 date = fileReader.read();
             }
+            fileReader.close();
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
