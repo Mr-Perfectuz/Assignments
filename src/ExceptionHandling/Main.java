@@ -1,5 +1,6 @@
 package ExceptionHandling;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
@@ -23,6 +24,10 @@ public class Main {
         catch (ArithmeticException arithmeticException){
             System.out.println(" You can't divide a number by \"zero\"  ");
         }
+        catch (InputMismatchException inputMismatchException) {
+            System.out.println("You can't divide to a word ! ENTER A NUMBER ");
+        }
+
 
     }
 }
