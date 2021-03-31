@@ -18,6 +18,7 @@ public class Main {
                 date = fileReader.read();
             }
             fileReader.close();
+            
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
