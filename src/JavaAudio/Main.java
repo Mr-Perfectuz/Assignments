@@ -16,11 +16,15 @@ public class Main {
 
 
 
-        String response = scanner.next();
-        response = response.toUpperCase();
+        String response = "";
+
 
         while (!response.equals("Q")){
             System.out.println("P = play  \nS = stop \nR = reset  \nQ = quit ");
+            System.out.println("Enter your choice ");
+
+            response = scanner.next();
+            response = response.toUpperCase();
         }
 
         clip.start();
