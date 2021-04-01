@@ -78,12 +78,8 @@ public class Main {
 //        }
 
 
-        int num, sum;
-        System.out.println("Enter number to calculate:");
-
-        num = scanner.nextInt();
 
 
-        }
+
     }
 }
