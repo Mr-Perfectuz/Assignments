@@ -6,8 +6,8 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
 public class MyFrame extends JFrame implements MouseListener {
-    JLabel jLabel;
 
+    JFrame label;
     MyFrame(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(500, 500);
@@ -25,32 +25,39 @@ public class MyFrame extends JFrame implements MouseListener {
 
     }
 
+
+
     @Override
     public void mouseClicked(MouseEvent e) {
-//        System.out.println("You clicked the mouse ");
-
+        System.out.println("You clicked the mouse ");
+        label.setBackground(Color.BLUE);
     }
 
     @Override
     public void mousePressed(MouseEvent e) {
 
-//        System.out.println("You pressed the mouse ");
+        System.out.println("You pressed the mouse ");
+        label.setBackground(Color.green);
     }
 
     @Override
     public void mouseReleased(MouseEvent e) {
 
-//        System.out.println("You released  the mouse ");
+        System.out.println("You released  the mouse ");
+        label.setBackground(Color.orange);
     }
 
     @Override
     public void mouseEntered(MouseEvent e) {
 
         System.out.println("You entered the component ");
+        label.setBackground(Color.LIGHT_GRAY);
     }
 
     @Override
     public void mouseExited(MouseEvent e) {
 
+        System.out.println("You exited the component ");
+        label.setBackground(Color.green);
     }
 }
