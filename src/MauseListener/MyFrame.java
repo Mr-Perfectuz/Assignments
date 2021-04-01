@@ -54,6 +54,8 @@ public class MyFrame extends JFrame implements MouseListener {
         label.setBackground(Color.LIGHT_GRAY);
     }
 
+
+
     @Override
     public void mouseExited(MouseEvent e) {
 
