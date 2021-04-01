@@ -27,6 +27,7 @@ public class MyFrame extends JFrame implements MouseListener {
 
     @Override
     public void mouseClicked(MouseEvent e) {
+        System.out.println("You clicked the mouse ");
 
     }
 
