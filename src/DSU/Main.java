@@ -7,23 +7,22 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
 
-//        int num = -4, sum = 0;
-//        while (num != 0){
-//            System.out.println(" Enter an integer (the input ends if it is 0): ");
-//            num = scanner.nextInt();
-//            sum = num + num;
-//
+        int num = -4, sum = 0;
+        while (num != 0) {
+            System.out.println(" Enter an integer (the input ends if it is 0): ");
+            num = scanner.nextInt();
+            sum = num + num;
+
+        }
 //
 //        }
 //        System.out.println("The sum is "+ sum);
-
 
 //        char alphabet = 'A';
 //        do {
 //            System.out.print(alphabet+" ");
 //            alphabet++;
 //        }while (alphabet <= 'Z');
-
 
 //        System.out.println("Multiplication Tabel ver.2");
 //        int num2 = 2;
@@ -76,8 +75,6 @@ public class Main {
 //        for (int i =1; i<=10; i++){
 //            System.out.printf("%d * %d = %d \n", num7, i, num7 * i);
 //        }
-
-
 
 
 
